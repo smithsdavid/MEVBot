@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "node_modules/dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "rootDirs": ["src", "./test"],
+    "resolveJsonModule": true,
+    "experimentalDecorators": true
+  },
+  "exclude": ["node_modules/dist", "node_modules"],
+  "include": ["./src", "./test", "./scripts", "./types", "./utils"],
+  "files": ["./hardhat.config.ts", "./src/drawInit.ts"]
+}
